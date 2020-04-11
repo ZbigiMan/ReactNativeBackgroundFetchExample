@@ -2,6 +2,7 @@
 **React Native Background Fetch Example**
 
 React Native: 0.61.5
+
 react-native-background-fetch: 6.14.4
 
 **Before run follow setup instructions from: https://github.com/transistorsoft/react-native-background-fetch**
