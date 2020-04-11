@@ -44,4 +44,10 @@
 #endif
 }
 
+-(void)application:(UIApplication *)application performFetchWithCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler
+{
+    NSLog(@"RNBackgroundFetch AppDelegate received fetch event");
+    TSBackgroundFetch *fetchManager = [TSBackgroundFetch sharedInstance];
+    [fetchManager performFetchWithCompletionHandler:completionHandler applicationState:application.applicationState];
+}
 @end
