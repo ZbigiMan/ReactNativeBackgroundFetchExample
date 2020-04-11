@@ -10,6 +10,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@react-native-community/push-notification-ios": "github:react-native-community/push-notification-ios",
     "react": "16.9.0",
     "react-native": "0.61.5",
     "react-native-background-fetch": "^3.0.4",

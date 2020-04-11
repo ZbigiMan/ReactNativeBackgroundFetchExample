@@ -12,10 +12,14 @@
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2033976E744285B34804756D /* libPods-ReactNativeBackgroundFetchExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B580110FC93DB69F7812C7CF /* libPods-ReactNativeBackgroundFetchExample.a */; };
+		276BF75C3E507B3FBF6D11DD /* libPods-ReactNativeBackgroundFetchExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1606567715BD14824AA5B4F6 /* libPods-ReactNativeBackgroundFetchExampleTests.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* ReactNativeBackgroundFetchExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ReactNativeBackgroundFetchExampleTests.m */; };
+		3270B654909D43F0A131D063 /* libPods-ReactNativeBackgroundFetchExample-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C62C5000E95765ECCA9430B /* libPods-ReactNativeBackgroundFetchExample-tvOS.a */; };
+		7C3D49C410F9E69582A33BD6 /* libPods-ReactNativeBackgroundFetchExample-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B12A80741E929A0549BC52E /* libPods-ReactNativeBackgroundFetchExample-tvOSTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,8 +51,23 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ReactNativeBackgroundFetchExample/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ReactNativeBackgroundFetchExample/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ReactNativeBackgroundFetchExample/main.m; sourceTree = "<group>"; };
+		1606567715BD14824AA5B4F6 /* libPods-ReactNativeBackgroundFetchExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeBackgroundFetchExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AA5818AFD8B800F5920B63F /* Pods-ReactNativeBackgroundFetchExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeBackgroundFetchExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeBackgroundFetchExampleTests/Pods-ReactNativeBackgroundFetchExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2513E2F3065A35D7FFE2120F /* Pods-ReactNativeBackgroundFetchExample-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeBackgroundFetchExample-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeBackgroundFetchExample-tvOS/Pods-ReactNativeBackgroundFetchExample-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* ReactNativeBackgroundFetchExample-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ReactNativeBackgroundFetchExample-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* ReactNativeBackgroundFetchExample-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ReactNativeBackgroundFetchExample-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37AC7EF252E9E16B84E8AD7C /* Pods-ReactNativeBackgroundFetchExample-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeBackgroundFetchExample-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeBackgroundFetchExample-tvOSTests/Pods-ReactNativeBackgroundFetchExample-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		3D522210AD4A5C67D6F19630 /* Pods-ReactNativeBackgroundFetchExample-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeBackgroundFetchExample-tvOS.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeBackgroundFetchExample-tvOS/Pods-ReactNativeBackgroundFetchExample-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		6B12A80741E929A0549BC52E /* libPods-ReactNativeBackgroundFetchExample-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeBackgroundFetchExample-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C62C5000E95765ECCA9430B /* libPods-ReactNativeBackgroundFetchExample-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeBackgroundFetchExample-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84442C1A2AE5FFFF8B212F19 /* Pods-ReactNativeBackgroundFetchExample-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeBackgroundFetchExample-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeBackgroundFetchExample-tvOSTests/Pods-ReactNativeBackgroundFetchExample-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AA26B7D1142238AC2CA13029 /* Pods-ReactNativeBackgroundFetchExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeBackgroundFetchExample.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeBackgroundFetchExample/Pods-ReactNativeBackgroundFetchExample.release.xcconfig"; sourceTree = "<group>"; };
+		B580110FC93DB69F7812C7CF /* libPods-ReactNativeBackgroundFetchExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeBackgroundFetchExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF9CE1A443F8E898451E50C6 /* Pods-ReactNativeBackgroundFetchExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeBackgroundFetchExampleTests.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeBackgroundFetchExampleTests/Pods-ReactNativeBackgroundFetchExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		C958A6272441C1320058F979 /* ReactNativeBackgroundFetchExample-tvOSDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = "ReactNativeBackgroundFetchExample-tvOSDebug.entitlements"; path = "ReactNativeBackgroundFetchExample-tvOS/ReactNativeBackgroundFetchExample-tvOSDebug.entitlements"; sourceTree = "<group>"; };
+		C958A6922441522500AD1727 /* ReactNativeBackgroundFetchExample-tvOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = "ReactNativeBackgroundFetchExample-tvOS.entitlements"; path = "ReactNativeBackgroundFetchExample-tvOS/ReactNativeBackgroundFetchExample-tvOS.entitlements"; sourceTree = "<group>"; };
+		C958A6932441526D00AD1727 /* ReactNativeBackgroundFetchExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = ReactNativeBackgroundFetchExample.entitlements; path = ReactNativeBackgroundFetchExample/ReactNativeBackgroundFetchExample.entitlements; sourceTree = "<group>"; };
+		EB0548D8070AE288CE39D6C2 /* Pods-ReactNativeBackgroundFetchExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeBackgroundFetchExample.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeBackgroundFetchExample/Pods-ReactNativeBackgroundFetchExample.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -58,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				276BF75C3E507B3FBF6D11DD /* libPods-ReactNativeBackgroundFetchExampleTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2033976E744285B34804756D /* libPods-ReactNativeBackgroundFetchExample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3270B654909D43F0A131D063 /* libPods-ReactNativeBackgroundFetchExample-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C3D49C410F9E69582A33BD6 /* libPods-ReactNativeBackgroundFetchExample-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,6 +128,7 @@
 		13B07FAE1A68108700A75B9A /* ReactNativeBackgroundFetchExample */ = {
 			isa = PBXGroup;
 			children = (
+				C958A6932441526D00AD1727 /* ReactNativeBackgroundFetchExample.entitlements */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -116,11 +140,30 @@
 			name = ReactNativeBackgroundFetchExample;
 			sourceTree = "<group>";
 		};
+		206F38324638F99D7F0579B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB0548D8070AE288CE39D6C2 /* Pods-ReactNativeBackgroundFetchExample.debug.xcconfig */,
+				AA26B7D1142238AC2CA13029 /* Pods-ReactNativeBackgroundFetchExample.release.xcconfig */,
+				2513E2F3065A35D7FFE2120F /* Pods-ReactNativeBackgroundFetchExample-tvOS.debug.xcconfig */,
+				3D522210AD4A5C67D6F19630 /* Pods-ReactNativeBackgroundFetchExample-tvOS.release.xcconfig */,
+				84442C1A2AE5FFFF8B212F19 /* Pods-ReactNativeBackgroundFetchExample-tvOSTests.debug.xcconfig */,
+				37AC7EF252E9E16B84E8AD7C /* Pods-ReactNativeBackgroundFetchExample-tvOSTests.release.xcconfig */,
+				1AA5818AFD8B800F5920B63F /* Pods-ReactNativeBackgroundFetchExampleTests.debug.xcconfig */,
+				BF9CE1A443F8E898451E50C6 /* Pods-ReactNativeBackgroundFetchExampleTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
+				B580110FC93DB69F7812C7CF /* libPods-ReactNativeBackgroundFetchExample.a */,
+				7C62C5000E95765ECCA9430B /* libPods-ReactNativeBackgroundFetchExample-tvOS.a */,
+				6B12A80741E929A0549BC52E /* libPods-ReactNativeBackgroundFetchExample-tvOSTests.a */,
+				1606567715BD14824AA5B4F6 /* libPods-ReactNativeBackgroundFetchExampleTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -135,11 +178,14 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				C958A6272441C1320058F979 /* ReactNativeBackgroundFetchExample-tvOSDebug.entitlements */,
+				C958A6922441522500AD1727 /* ReactNativeBackgroundFetchExample-tvOS.entitlements */,
 				13B07FAE1A68108700A75B9A /* ReactNativeBackgroundFetchExample */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* ReactNativeBackgroundFetchExampleTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				206F38324638F99D7F0579B6 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -164,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ReactNativeBackgroundFetchExampleTests" */;
 			buildPhases = (
+				060A3DC00E5676D70BBEFDC7 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
@@ -182,6 +229,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ReactNativeBackgroundFetchExample" */;
 			buildPhases = (
+				E2C5150F90BCAF375B3BC99E /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
@@ -193,7 +241,7 @@
 			dependencies = (
 			);
 			name = ReactNativeBackgroundFetchExample;
-			productName = "ReactNativeBackgroundFetchExample";
+			productName = ReactNativeBackgroundFetchExample;
 			productReference = 13B07F961A680F5B00A75B9A /* ReactNativeBackgroundFetchExample.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -201,6 +249,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ReactNativeBackgroundFetchExample-tvOS" */;
 			buildPhases = (
+				F058A63CDB0AA182A9CFF820 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -220,6 +269,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ReactNativeBackgroundFetchExample-tvOSTests" */;
 			buildPhases = (
+				EB79097C9F23021016DB6C0C /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -247,9 +297,13 @@
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = J2KA8QUZJC;
+						ProvisioningStyle = Automatic;
+					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					2D02E48F1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -263,6 +317,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -328,6 +383,28 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
+		060A3DC00E5676D70BBEFDC7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReactNativeBackgroundFetchExampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -341,6 +418,72 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		E2C5150F90BCAF375B3BC99E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReactNativeBackgroundFetchExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB79097C9F23021016DB6C0C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReactNativeBackgroundFetchExample-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F058A63CDB0AA182A9CFF820 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReactNativeBackgroundFetchExample-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -447,6 +590,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AA5818AFD8B800F5920B63F /* Pods-ReactNativeBackgroundFetchExampleTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -469,6 +613,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF9CE1A443F8E898451E50C6 /* Pods-ReactNativeBackgroundFetchExampleTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -488,10 +633,15 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB0548D8070AE288CE39D6C2 /* Pods-ReactNativeBackgroundFetchExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ReactNativeBackgroundFetchExample/ReactNativeBackgroundFetchExample.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = J2KA8QUZJC;
 				INFOPLIST_FILE = ReactNativeBackgroundFetchExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -499,32 +649,41 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.reactnativebackgroundfetchexample;
 				PRODUCT_NAME = ReactNativeBackgroundFetchExample;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA26B7D1142238AC2CA13029 /* Pods-ReactNativeBackgroundFetchExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ReactNativeBackgroundFetchExample/ReactNativeBackgroundFetchExample.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J2KA8QUZJC;
 				INFOPLIST_FILE = ReactNativeBackgroundFetchExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.reactnativebackgroundfetchexample;
 				PRODUCT_NAME = ReactNativeBackgroundFetchExample;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2513E2F3065A35D7FFE2120F /* Pods-ReactNativeBackgroundFetchExample-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -532,7 +691,10 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CODE_SIGN_ENTITLEMENTS = "ReactNativeBackgroundFetchExample-tvOS/ReactNativeBackgroundFetchExample-tvOSDebug.entitlements";
+				CODE_SIGN_STYLE = Manual;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "ReactNativeBackgroundFetchExample-tvOS/Info.plist";
@@ -542,8 +704,9 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.ReactNativeBackgroundFetchExample-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.reactnativebackgroundfetchexample-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.2;
@@ -552,6 +715,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D522210AD4A5C67D6F19630 /* Pods-ReactNativeBackgroundFetchExample-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -559,8 +723,11 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CODE_SIGN_ENTITLEMENTS = "ReactNativeBackgroundFetchExample-tvOS/ReactNativeBackgroundFetchExample-tvOS.entitlements";
+				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "ReactNativeBackgroundFetchExample-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -569,8 +736,9 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.ReactNativeBackgroundFetchExample-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.reactnativebackgroundfetchexample-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.2;
@@ -579,6 +747,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84442C1A2AE5FFFF8B212F19 /* Pods-ReactNativeBackgroundFetchExample-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -605,6 +774,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37AC7EF252E9E16B84E8AD7C /* Pods-ReactNativeBackgroundFetchExample-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
